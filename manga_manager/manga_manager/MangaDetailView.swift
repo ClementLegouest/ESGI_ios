@@ -10,12 +10,13 @@ import SwiftUI
 struct MangaDetailView: View {
     
     let manga: Manga
+    @State private var followed = true
     
     var body: some View {
         VStack {
             Form {
                 ImageDetailView(withURL: manga.image)
-                    .padding()
+                    .padding(.leading, 50)
                 Text(manga.title)
                     .font(.title)
                     .fontWeight(.medium)
@@ -46,10 +47,8 @@ struct MangaDetailView: View {
                     }) {
                         Text("Ajouter aux favoris")
                     }
-                    Button(action: {
-                        print("Suivi")
-                    }) {
-                        Text("Ajouter au suivi")
+                    Toggle(isOn: $followed) {
+                        Text("suivre")
                     }
                 }
             }

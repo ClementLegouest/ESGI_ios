@@ -42,7 +42,7 @@ struct ImageView: View {
             Image(uiImage: image)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 60, height: 60)
+                .frame(width: 60, height: 120)
                 .cornerRadius(5)
                 .clipped()
                 .onReceive(imageLoader.didChange) { data in
@@ -64,7 +64,7 @@ struct ImageDetailView: View {
             Image(uiImage: image)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 250)
+                .frame(width: 300, height: 500)
                 .cornerRadius(10)
                 .clipped()
                 .onReceive(imageLoader.didChange) { data in

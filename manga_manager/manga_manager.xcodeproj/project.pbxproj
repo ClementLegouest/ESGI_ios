@@ -14,6 +14,9 @@
 		8BF4D54525792DA8008C6729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4D54425792DA8008C6729 /* ContentView.swift */; };
 		8BF4D54725792DAA008C6729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF4D54625792DAA008C6729 /* Assets.xcassets */; };
 		8BF4D54A25792DAA008C6729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF4D54925792DAA008C6729 /* Preview Assets.xcassets */; };
+		8BFBFB55257A257C00F54D66 /* MangaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFB54257A257C00F54D66 /* MangaView.swift */; };
+		8BFBFB58257A260500F54D66 /* MangaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFB57257A260500F54D66 /* MangaRow.swift */; };
+		8BFBFB5B257A616100F54D66 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFB5A257A616100F54D66 /* FavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8BF4D54625792DAA008C6729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF4D54925792DAA008C6729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BF4D54B25792DAA008C6729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFBFB54257A257C00F54D66 /* MangaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaView.swift; sourceTree = "<group>"; };
+		8BFBFB57257A260500F54D66 /* MangaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaRow.swift; sourceTree = "<group>"; };
+		8BFBFB5A257A616100F54D66 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			children = (
 				8BF4D54225792DA8008C6729 /* manga_managerApp.swift */,
 				8BF4D54425792DA8008C6729 /* ContentView.swift */,
+				8BFBFB54257A257C00F54D66 /* MangaView.swift */,
+				8BFBFB5A257A616100F54D66 /* FavView.swift */,
+				8BFBFB57257A260500F54D66 /* MangaRow.swift */,
 				8B9990B72579B49000B11653 /* ImageLoader.swift */,
 				8B9990B42579B17000B11653 /* MangaDetailView.swift */,
 				8B5889282579A8A0006E18FC /* Manga.swift */,
@@ -147,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFBFB5B257A616100F54D66 /* FavView.swift in Sources */,
 				8B5889292579A8A0006E18FC /* Manga.swift in Sources */,
+				8BFBFB58257A260500F54D66 /* MangaRow.swift in Sources */,
 				8BF4D54525792DA8008C6729 /* ContentView.swift in Sources */,
 				8B9990B82579B49000B11653 /* ImageLoader.swift in Sources */,
+				8BFBFB55257A257C00F54D66 /* MangaView.swift in Sources */,
 				8B9990B52579B17000B11653 /* MangaDetailView.swift in Sources */,
 				8BF4D54325792DA8008C6729 /* manga_managerApp.swift in Sources */,
 			);
